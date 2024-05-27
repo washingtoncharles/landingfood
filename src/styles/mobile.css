@@ -49,7 +49,34 @@
     text-align: center;
   }
 
+  /* MENU */
+  #dishes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dish-item {
+    width: calc(50% - 12px);
+  }
 }
+
+
+@media (max-width: 650px) {
+  /* MENU */
+  #menu .section-subtitle {
+    text-align: center;
+  }
+
+  #dishes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dish-item {
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 450px) {
   /* HERO */
@@ -61,5 +88,10 @@
     height: 60px;
     width: 250px;
     justify-content: center;
+  }
+
+  /* MENU */
+  #menu .section-subtitle {
+    text-align: center;
   }
 }
