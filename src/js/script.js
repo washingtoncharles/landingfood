@@ -38,4 +38,29 @@ $(document).ready(function () {
     $(navItems[activeSectionIndex]).addClass('active').siblings().removeClass('active');
 
   })
+
+  //SCROLL TO SECTION - SCROLL REVEAL
+  ScrollReveal().reveal('#hero', {
+    origin: 'left',
+    duration: 2000,
+    distance: '20%'
+  });
+
+  ScrollReveal().reveal('.dish-item', {
+    origin: 'left',
+    duration: 2000,
+    distance: '20%'
+  });
+
+  ScrollReveal().reveal('#testimonials-chef', {
+    origin: 'left',
+    duration: 1000,
+    distance: '20%'
+  });
+
+  ScrollReveal().reveal('.feedback', {
+    origin: 'right',
+    duration: 1000,
+    distance: '20%'
+  });
 })
