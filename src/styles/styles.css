@@ -260,6 +260,22 @@ header {
   color: #e9a209;
 }
 
+/* FOOTER */
+footer {
+  background-color: #ffe8b4;
+}
+
+#footer-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8% 24px 8%;
+}
+
+#footer-items .copyright {
+  color: #1d1d1d;
+  font-weight: 500
+}
 
 
 /* UTILITY CLASSES */
